@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+}
+ 
+.text-block,
+.text-block-jacket,
+.text-block-sneaker,
+.text-block-women,
+.text-block-men {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border: 2px;
+    border-style: solid;
+    color: black;
+}
+ 
+.text-block h3,
+.text-block-jacket h3,
+.text-block-sneaker h3,
+.text-block-women h3,
+.text-block-men h3 {
+    margin: 0;
+}
+ 
+.text-block p,
+.text-block-jacket p,
+.text-block-sneaker p,
+.text-block-women p,
+.text-block-men p {
+    margin: 5px 0;
+}

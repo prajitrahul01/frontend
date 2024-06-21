@@ -1,0 +1,15 @@
+
+.img-css {
+    max-height: 40px; 
+  }
+  
+  .links {
+    text-decoration: none;
+    margin-right: 10px;
+    color: gray;
+  }
+  
+  .float-left-child {
+    float: left;
+  }
+  

@@ -1,0 +1,40 @@
+.container1 {
+    position: relative;
+  }
+  
+  .card:hover .text-block1 {
+    display: block;
+  }
+  
+  .custom-button:hover {
+    background-color: rgb(216, 6, 6);
+    color: rgb(26, 204, 85);
+    transition: background-color 0.3s, color 0.3s; /* Add a transition for a smooth effect */
+  }
+  
+  .card:hover .custom-button {
+    color: white;
+    background-color: black;
+  }
+  
+  .text-block1 {
+    display: none;
+    position: absolute;
+    bottom: 1px; /* Adjust as needed */
+    width: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: transparent;
+    padding: 20px;
+    border: 2px;
+  }
+  
+  .text-block1 h3 {
+    margin: 0;
+  }
+  
+  .text-block1 p {
+    margin: 5px 0;
+  }
+  

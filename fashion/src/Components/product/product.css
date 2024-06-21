@@ -1,0 +1,19 @@
+.center {
+    text-align: center;
+    justify-content: center;
+}
+h2 {
+    color: black; 
+    font-size: 3em; 
+    text-align: center; 
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    font-family: 'Comic Sans MS', cursive;
+    margin-bottom: 20px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  }
+  
+  h2:hover {
+    transform: rotate(5deg); 
+  }
+  
